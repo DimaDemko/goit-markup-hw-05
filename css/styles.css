@@ -388,8 +388,7 @@ ul {
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
-  transition: fill var(--transition);
-  transition: background-color var(--transition);
+  transition: background-color var(--transition), fill var(--transition);
 }
 
 .our-team-links {
@@ -480,7 +479,7 @@ ul {
   border: 1px solid var(--icon-color--);
   border-radius: 4px;
   fill: var(--icon-color--);
-  transition: fill var(--transition);
+  transition: color var(--transition);
   transition: border-color var(--transition);
 }
 
@@ -528,7 +527,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-colar var(--transition);
+  transition: background-color var(--transition);
 }
 
 /* .join {
@@ -756,7 +755,6 @@ ul {
   transition: opacity 250ms linear, visibility 250ms linear;
   opacity: 1;
   visibility: visible;
-  transition: background-color;
 }
 .backdrop.is-hidden {
   opacity: 0;
