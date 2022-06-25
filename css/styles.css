@@ -470,6 +470,12 @@ ul {
   margin-left: 30px;
 }
 
+/* .clients-link:hover,
+.clients-link:focus {
+  transition: color var(--transition);
+  transition: background-color var(--transition);
+} */
+
 .clients-link {
   display: flex;
   width: 170px;
@@ -479,8 +485,7 @@ ul {
   border: 1px solid var(--icon-color--);
   border-radius: 4px;
   fill: var(--icon-color--);
-  transition: color var(--transition);
-  transition: border-color var(--transition);
+  transition: border-color var(--transition), fill var(--transition);
 }
 
 .clients-link:hover,
